@@ -4,7 +4,7 @@
     "draft-pull-request": true,
     "label": "autorelease: pending,No Notification",
     "packages": {
-        "/": {}
+        ".": {}
     },
     "changelog-sections": [
         { "type": "BREAKING CHANGE", "section": "⚠️ BREAKING CHANGES" },
