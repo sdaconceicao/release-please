@@ -3,6 +3,9 @@
     "pull-request-title-pattern": "chore${scope}: deploy ${component} ${version}",
     "draft-pull-request": true,
     "label": "autorelease: pending,No Notification",
+    "packages": {
+        "/": {}
+    },
     "changelog-sections": [
         { "type": "BREAKING CHANGE", "section": "⚠️ BREAKING CHANGES" },
         { "type": "feat", "section": "Features" },
