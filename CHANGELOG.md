@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.1](https://github.com/sdaconceicao/release-please/compare/app-a-v1.0.0...app-a-v1.0.1) (2025-02-24)
+
+
+### Chores
+
+* app-a package ([f680ced](https://github.com/sdaconceicao/release-please/commit/f680ced5fbdd6378f2f6538dc36e580768337aa3))
+* fix manifest ([71e47e5](https://github.com/sdaconceicao/release-please/commit/71e47e59500897a5d8d1e1c54edef0e8ca24b052))
+* output prs ([1f193ce](https://github.com/sdaconceicao/release-please/commit/1f193ce3b0a0e3d5446ddb6dc719983337890d9d))
+
 ## 1.0.0 (2025-02-24)
 
 
