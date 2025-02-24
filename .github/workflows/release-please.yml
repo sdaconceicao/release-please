@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
-      pr: ${{ steps.release.outputs.pr }}
-      prs: ${{ steps.release.outputs.prs }}
     steps:
       - name: Run Release Please Action
         id: release
