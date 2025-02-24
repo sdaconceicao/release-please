@@ -1,0 +1,15 @@
+{
+    "release-type": "node",
+    "pull-request-title-pattern": "chore${scope}: deploy ${component} ${version}",
+    "draft-pull-request": true,
+    "label": "autorelease: pending,No Notification",
+    "changelog-sections": [
+        { "type": "BREAKING CHANGE", "section": "⚠️ BREAKING CHANGES" },
+        { "type": "feat", "section": "Features" },
+        { "type": "fix", "section": "Bug Fixes" },
+        { "type": "bug", "section": "Bug Fixes" },
+        { "type": "docs", "section": "Chores" },
+        { "type": "deps", "section": "Chores" },
+        { "type": "chore", "section": "Chores" }
+    ]
+}
