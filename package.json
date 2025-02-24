@@ -1,0 +1,51 @@
+{
+	"name": "app-a",
+	"description": "App A",
+	"version": "0.0.1",
+	"private": false,
+	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"types": "dist/src/index.d.ts",
+	"scripts": {
+		"build": "rm -rf dist &&  rollup -c --bundleConfigAsCjs",
+		"build:ci": "yarn build",
+		"build-watch": "yarn build -w"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"prettier": {
+		"singleQuote": true,
+		"tabWidth": 4,
+		"useTabs": true,
+		"printWidth": 100,
+		"arrowParens": "always",
+		"trailingComma": "none",
+		"overrides": [
+			{
+				"files": "*.md",
+				"options": {
+					"proseWrap": "always",
+					"tabWidth": 2,
+					"useTabs": false
+				}
+			}
+		]
+	},
+	"dependencies": {
+		
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^23.0.3",
+		"@rollup/plugin-image": "^3.0.1",
+		"@rollup/plugin-node-resolve": "^15.0.1",
+		"prettier": "^2.8.0",
+		"rollup": "^3.5.0",
+		"rollup-plugin-delete": "^2.0.0",
+		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"rollup-plugin-terser": "^7.0.2",
+		"rollup-plugin-typescript2": "^0.34.1",
+		"typescript": "^4.9.3"
+	}
+
+}
