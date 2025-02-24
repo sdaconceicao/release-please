@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/sdaconceicao/release-please/compare/app-a-v1.0.1...app-a-v1.0.2) (2025-02-24)
+
+
+### Chores
+
+* create issues on creating pr ([64a90c6](https://github.com/sdaconceicao/release-please/commit/64a90c6e39ebd1af83e2e49d91ceedb4a4715973))
+
 ## [1.0.1](https://github.com/sdaconceicao/release-please/compare/app-a-v1.0.0...app-a-v1.0.1) (2025-02-24)
 
 
